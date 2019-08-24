@@ -17,8 +17,10 @@ def swap_elements(array)
     binding.pry
     if a.index == 1
       1 
+    elsif a.index == 0 
+      0
     else 
-      0 
+      0
     end 
   end
 end
