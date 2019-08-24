@@ -11,9 +11,11 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  array.map_with_index do |a,b|
-    if a.index == 1 
-      b<=>a 
+  array.sort do |a,b| 
+    if a.index == 1
+      1 
+    else 
+      0 
     end 
   end
 end
