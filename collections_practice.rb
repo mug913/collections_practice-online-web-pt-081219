@@ -11,5 +11,9 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  array.sort { |a,b| puts a.index }
+  array.map_with_index do |a,b|
+    if a.index == 1 
+      b<=>a 
+    end 
+  end
 end
