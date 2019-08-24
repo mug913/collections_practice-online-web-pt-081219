@@ -13,11 +13,9 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  array.sort do |a, b|
-    binding.pry
-    if a.index == 1
+  array.sort! do |a, b|
+      if a.index == 1
       1 
-        binding.pry
     elsif a.index == 0 
       0
     else 
