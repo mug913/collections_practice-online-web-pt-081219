@@ -1,4 +1,4 @@
-aarequire 'pry' 
+require 'pry' 
 
 def sort_array_asc(array)
   array.sort 
@@ -17,6 +17,7 @@ def swap_elements(array)
     binding.pry
     if a.index == 1
       1 
+        binding.pry
     elsif a.index == 0 
       0
     else 
